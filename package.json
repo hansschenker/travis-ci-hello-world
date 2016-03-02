@@ -1,0 +1,28 @@
+{
+  "name": "travis-ci-hello-world",
+  "version": "0.0.1",
+  "description": "travis ci hello world test",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt --verbose",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-cli": "0.1.9",
+    "grunt-contrib-jshint": "0.6.0",
+    "grunt-contrib-watch": "0.6.1",
+    "jshint": "2.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HansS/travis-ci-hello-world.git"
+  },
+  "keywords": [],
+  "author": "Hans Schenker <hans.schenker@windowslive.com> (http://www.netxpert.ch/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HansS/travis-ci-hello-world/issues"
+  },
+  "homepage": "https://github.com/HansS/travis-ci-hello-world#readme"
+}
